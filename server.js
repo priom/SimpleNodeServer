@@ -9,7 +9,7 @@ const port = '3001';
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Welcome, I\'m Priom!');
+    res.end('Welcome, I\'m NodeJS!');
 });
 
 server.listen(port, host, () => {
